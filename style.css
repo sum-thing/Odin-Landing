@@ -1,0 +1,146 @@
+:root {
+    --main-color: #001219;
+    --blue-color: rgb(117, 117, 235);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: var(--main-color);
+    align-items: center;
+}
+
+.header-links ul{
+    display: flex;
+    gap: 30px;
+}
+
+.header-links ul li a{
+    color: white;
+}
+
+.header-logo h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    background-color: var(--main-color);
+    height: 300px;
+    align-items: center;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    width: 20%;
+}
+
+.main-title h2 {
+    margin: 0 0 10px 0;
+    width: 70%;
+}
+
+.main-title p {
+    color: #e0e0e0;
+    opacity: 70%;
+}
+
+.main-image div {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(92, 92, 92);
+}
+
+.main-image div h1 {
+    margin: auto;
+    color: white;
+}
+
+.main-title button {
+    width: 70px;
+    height: 20px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid var(--blue-color);
+    background-color: var(--blue-color);
+    border-radius: 5px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 60vh;
+}
+
+.info-title h2 {
+    margin-top: 50px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    gap: 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.info-cards .img img {
+    height: 150px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-main {
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+    width: 50%;
+    border-radius: 5px;
+    margin: 10vh 0 10vh 0;
+    height: 100px;
+    align-items: center;
+}
+
+.cta-main .cta-main-title {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+}
+
+.cta-button button{
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--blue-color);
+}
